@@ -3,8 +3,8 @@ name: Hello action
 runs:
   using: "composite"
 
-steps:
-  - name: Hello 
-    run: echo "Hello world"
-  - name: What's up
-    run: echo "What's up?"
+  steps:
+    - name: Hello 
+      run: echo "Hello world"
+    - name: What's up
+      run: echo "What's up?"
